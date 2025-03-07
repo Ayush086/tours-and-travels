@@ -43,7 +43,7 @@ A full-stack MERN application for booking bus tickets with user and admin functi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tours-travels.git
+git clone https://github.com/Ayush086/tours-travels.git
 cd tours-travels
 ```
 
@@ -124,5 +124,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/tours-travels 
+Your Name - ayushuttarwar086@gmail.com
+Project Link: https://github.com/Ayush086/tours-travels 
