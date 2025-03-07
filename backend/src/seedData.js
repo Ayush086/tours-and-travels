@@ -55,20 +55,21 @@ const seedDatabase = async () => {
     await Booking.deleteMany({});
 
     // Create admin user
-    const hashedPassword = await bcrypt.hash('admin123', 10);
+    const adminPassword = await bcrypt.hash('admin@123', 10);
     const admin = await User.create({
       name: 'Admin User',
       email: 'admin@example.com',
-      password: hashedPassword,
+      password: adminPassword,
       role: 'admin'
     });
     console.log('Admin user created');
 
     // Create regular user
+    const userPassword = await bcrypt.hash('user@123', 10);
     const user = await User.create({
       name: 'Test User',
       email: 'user@example.com',
-      password: hashedPassword,
+      password: userPassword,
       role: 'user'
     });
     console.log('Test user created');
